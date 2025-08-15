@@ -1,5 +1,4 @@
 **🚀 Proyecto de Automatización Web - OrangeHRM**
-
 **Descripción General**
 Este repositorio contiene un proyecto de automatización de pruebas end-to-end (E2E) para la aplicación web de demostración de **OrangeHRM**. El objetivo principal es validar las funcionalidades críticas del sistema, como el inicio de sesión y la navegación por el panel de control.
 
