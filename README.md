@@ -6,7 +6,7 @@ Este repositorio contiene un proyecto de automatización de pruebas end-to-end (
 
 El proyecto está diseñado con las mejores prácticas de la industria, combinando un **enfoque BDD (Behavior Driven Development)** con una arquitectura **Page Object Model (POM)** para crear pruebas robustas, escalables y fáciles de mantener.
 
-**Stack Tecnológico**
+**1. Stack Tecnológico**
 
 **Java(17+):** Lenguaje principal de programación.
 
@@ -19,7 +19,7 @@ El proyecto está diseñado con las mejores prácticas de la industria, combinan
 **Gradle(8.x):** Gestión de dependencias y construcción del proyecto.
 
 
-**Características del Proyecto**
+**2. Características del Proyecto**
 
 **BDD con Gherkin:** Escenarios de prueba escritos en lenguaje natural, facilitando la colaboración con el equipo de negocio.
 
@@ -28,7 +28,7 @@ El proyecto está diseñado con las mejores prácticas de la industria, combinan
 **Integración Continua (CI):** El proyecto está listo para ser integrado en pipelines de CI/CD (como Jenkins o Bitbucket Pipelines) para una ejecución automatizada.
 
 
-**Cómo Ejecutar las Pruebas**
+**3. Cómo Ejecutar las Pruebas**
 
 **Clonar el repositorio:** git clone https://github.com/tu-usuario/automation-web-orangehrm.git
 
