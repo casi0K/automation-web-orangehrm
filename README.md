@@ -6,6 +6,7 @@ Este repositorio contiene un proyecto de automatización de pruebas end-to-end (
 
 El proyecto está diseñado con las mejores prácticas de la industria, combinando un **enfoque BDD (Behavior Driven Development)** con una arquitectura **Page Object Model (POM)** para crear pruebas robustas, escalables y fáciles de mantener.
 
+
 **1. Stack Tecnológico**
 
 **Java(17+):** Lenguaje principal de programación.
@@ -19,7 +20,15 @@ El proyecto está diseñado con las mejores prácticas de la industria, combinan
 **Gradle(8.x):** Gestión de dependencias y construcción del proyecto.
 
 
-**2. Características del Proyecto**
+**2. Requisitos Previos**
+Java 17 o superior
+
+Navegador compatible (ej. Google Chrome)
+
+Gradle instalado o usar el wrapper incluido (./gradlew)
+
+
+**3. Características del Proyecto**
 
 **BDD con Gherkin:** Escenarios de prueba escritos en lenguaje natural, facilitando la colaboración con el equipo de negocio.
 
@@ -28,10 +37,35 @@ El proyecto está diseñado con las mejores prácticas de la industria, combinan
 **Integración Continua (CI):** El proyecto está listo para ser integrado en pipelines de CI/CD (como Jenkins o Bitbucket Pipelines) para una ejecución automatizada.
 
 
-**3. Cómo Ejecutar las Pruebas**
+**4. Cómo Ejecutar las Pruebas**
 
 **Clonar el repositorio:** git clone https://github.com/tu-usuario/automation-web-orangehrm.git
 
 **Abrir en un IDE:** Importar el proyecto en IntelliJ IDEA.
 
-**Ejecutar el Runner:** Ejecutar la clase TestRunner para iniciar la suite de pruebas.
+**Ejecutar las pruebas:** ./gradlew clean test
+
+**Ver el reporte HTML:** Abre en tu navegador en build/reports/tests/test/index.html
+
+
+**5. Estructura del Proyecto**
+automation-web-orangehrm/
+├── src/
+│   ├── main/java/...   # Código base / POM
+│   └── test/java/...   # Clases y escenarios de prueba
+├── build.gradle
+├── README.md
+└── ...
+
+**6. Licencia**
+Este proyecto se distribuye bajo licencia MIT. Consulta el archivo LICENSE para más detalles.
+
+
+
+
+
+
+
+
+
+
